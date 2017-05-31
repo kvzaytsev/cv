@@ -40,7 +40,7 @@ body {
   text-decoration: none;
 }
 .condidate-overview {
-  padding: 20px 80px;
+  padding: 0px 80px;
 }
 .condidate-overview__header {
   text-transform: uppercase;
@@ -50,7 +50,7 @@ body {
   margin-top: 10px;
 }
 .skill-set {
-  padding: 20px 80px;
+  padding: 0px 80px;
 }
 .skill-set__header {
   text-transform: uppercase;
@@ -58,9 +58,15 @@ body {
 }
 .skill-set__common-head {
   width: 100%;
+  margin-bottom: 10px;
 }
 .skill-set__common-col {
-
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  padding: 10px;
+  font-weight: normal;
+  font-style: italic;
+  color: #ccc;
 }
 .skill-set__common-col--tech {
   text-align: left;
@@ -70,5 +76,33 @@ body {
   width: 20%;
 }
 .skill-set__common-col--last {
+  width: 20%;
+}
+.skill-set__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.skill-set__table-head {
+  background-color: #ccc;
+}
+.skill-set__table-header {
+  padding: 5px 20px;
+  text-align: left;
+}
+.skill-set__table-row {
+  border-bottom: 1px dotted #ccc;
+}
+.skill-set__table-cell {
+  padding: 5px 20px;
+  text-align: center;
+}
+.skill-set__table-cell--skill {
+  width: 60%;
+  text-align: left;
+}
+.skill-set__table-cell--exp {
+  width: 20%;
+}
+.skill-set__table-cell--last {
   width: 20%;
 }

@@ -1,10 +1,10 @@
 .condidate-overview {
-  padding: 20px 80px;
+  padding: 0px 80px;
 }
 
 .condidate-overview__header {
   text-transform: uppercase;
-  color: #b32b2b;
+  color: $section-header-text;
 }
 
 .condidate-overview__item {
