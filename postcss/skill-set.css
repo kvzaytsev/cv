@@ -1,0 +1,29 @@
+.skill-set {
+  padding: 20px 80px;
+}
+
+.skill-set__header {
+  text-transform: uppercase;
+  color: #b32b2b;
+}
+
+.skill-set__common-head {
+  width: 100%;
+}
+
+.skill-set__common-col {
+
+}
+
+.skill-set__common-col--tech {
+  text-align: left;
+  width: 60%;
+}
+
+.skill-set__common-col--exp {
+  width: 20%;
+}
+
+.skill-set__common-col--last {
+  width: 20%;
+}

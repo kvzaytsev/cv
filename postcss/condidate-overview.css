@@ -1,0 +1,12 @@
+.condidate-overview {
+  padding: 20px 80px;
+}
+
+.condidate-overview__header {
+  text-transform: uppercase;
+  color: #b32b2b;
+}
+
+.condidate-overview__item {
+  margin-top: 10px;
+}

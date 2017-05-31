@@ -1,0 +1,43 @@
+.page-header {
+  padding: 20px 80px;
+  background-color: #888;
+}
+
+@media print {
+  .page-header {
+    background-color: #888;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+.page-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header__constacts {
+  text-align: right;
+}
+
+.page-header__entity {
+  display: block;
+  color: #fff;
+}
+
+.page-header__entity--name {
+  font-size: 40px;
+}
+
+.page-header__entity--title {
+  font-size: 24px;
+}
+
+.page-header__entity--email {
+  font-size: 20px;
+}
+
+.page-header__entity--phone {
+  font-size: 20px;
+  text-decoration: none;
+}
