@@ -1,0 +1,207 @@
+{
+    "person": {
+        "name": "Kirill Zaytsev",
+        "jobTitle": "JavaScript Developer",
+        "email": "kirill.v.zaytsev@gmail.com",
+        "phone": "+7 906 241 24 16"
+    },
+    "overview": {
+        "items": [
+            "4 years of software engineering work experience as a developer",
+            "Development experience in JavaScript, Java",
+            "Excellent analytical and communications skills"
+        ]
+    },
+    "skills": {
+        "languages": {
+            "title": "Programming Languages and Platforms",
+            "items": [
+                {
+                    "name": "JavaScript",
+                    "exp": 3,
+                    "last": "Currently"
+                },
+                {
+                    "name": "Java",
+                    "exp": 2,
+                    "last": "2015"
+                },
+                {
+                    "name": "PHP",
+                    "exp": 2,
+                    "last": "2014"
+                },
+                {
+                    "name": "HTML5, CSS3, JSON, SVG, XML",
+                    "exp": 3,
+                    "last": "Currently"
+                }
+            ]
+        },
+        "frameworks": {
+            "title": "Frameworks and Technologies",
+            "items": [
+                {
+                    "name": "React + Redux",
+                    "exp": 0.5,
+                    "last": "Currently",
+                    "isProd": true
+                },
+                {
+                    "name": "jQuery",
+                    "exp": 3,
+                    "last": "Currently",
+                    "isProd": true
+                },
+                {
+                    "name": "jQuery-UI",
+                    "exp": 1,
+                    "last": "Currently",
+                    "isProd": true
+                },
+                {
+                    "name": "Gulp",
+                    "exp": 1,
+                    "last": "Currently",
+                    "isProd": true
+                },
+                {
+                    "name": "Webpack",
+                    "exp": 1,
+                    "last": "Currently",
+                    "isProd": true
+                },
+                {
+                    "name": "EJS",
+                    "exp": 1,
+                    "last": "Currently",
+                    "isProd": true
+                },
+                {
+                    "name": "RequireJS",
+                    "exp": 2,
+                    "last": "2016",
+                    "isProd": true
+                },
+                {
+                    "name": "Phonegap (Cordova)",
+                    "exp": 1,
+                    "last": "2016",
+                    "isProd": true
+                },
+                {
+                    "name": "Handlebars",
+                    "exp": 1,
+                    "last": "2015",
+                    "isProd": true
+                },
+                {
+                    "name": "Qooxdoo",
+                    "exp": 1,
+                    "last": "2016",
+                    "isProd": true
+                },
+                {
+                    "name": "HighCharts",
+                    "exp": 1,
+                    "last": "2015",
+                    "isProd": true
+                },
+                {
+                    "name": "Nightwatch.js",
+                    "exp": 1,
+                    "last": "2016",
+                    "isProd": true
+                },
+                {
+                    "name": "Jasmin",
+                    "exp": 2,
+                    "last": "2016",
+                    "isProd": true
+                },
+                {
+                    "name": "Eclipse RCP",
+                    "exp": 2,
+                    "last": "2015",
+                    "isProd": true
+                }
+            ]
+        },
+        "dbms": {
+            "title": "Database Management Systems",
+            "items": [
+              {
+                  "name": "MySQL",
+                  "exp": 3,
+                  "last": "2015"
+              },
+              {
+                  "name": "MS SQL",
+                  "exp": 3,
+                  "last": "2014"
+              }
+            ]
+        },
+        "appservers": {
+            "title": "Application Servers",
+            "items": [
+              {
+                  "name": "Tomcat 7, 8",
+                  "exp": 2,
+                  "last": "Currently"
+              },
+              {
+                  "name": "Appache HTTP",
+                  "exp": 4,
+                  "last": "2015"
+              }
+            ]
+        },
+        "tools": {
+            "title": "Services and Tools",
+            "items": [
+              {
+                  "name": "WebStorm",
+                  "exp": 3,
+                  "last": "Currently"
+              },
+              {
+                  "name": "SVN",
+                  "exp": 3,
+                  "last": "2016"
+              },
+              {
+                  "name": "Git",
+                  "exp": 1,
+                  "last": "Currently"
+              },
+              {
+                  "name": "Eclipse",
+                  "exp": 3,
+                  "last": "2015"
+              },
+              {
+                  "name": "Jira",
+                  "exp": 5,
+                  "last": "Currently"
+              },
+              {
+                  "name": "Ant",
+                  "exp": 1,
+                  "last": "2015"
+              },
+              {
+                  "name": "Maven",
+                  "exp": 1,
+                  "last": "2015"
+              },
+              {
+                  "name": "Mantis",
+                  "exp": 1,
+                  "last": "2015"
+              }
+            ]
+        }
+
+    }
+}
