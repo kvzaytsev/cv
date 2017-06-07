@@ -22,8 +22,10 @@
   "homepage": "https://github.com/kvzaytsev/cv#readme",
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-ejs": "^3.0.1",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
     "postcss-advanced-variables": "^1.2.2",
     "postcss-mixins": "^6.0.0",
     "postcss-partial-import": "^4.1.0"

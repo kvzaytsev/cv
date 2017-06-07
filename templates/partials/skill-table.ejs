@@ -1,0 +1,18 @@
+<table class="skill-set__table">
+    <thead class="skill-set__table-head">
+    <th class="skill-set__table-header"><%= title %></th>
+    <th></th>
+    <th></th>
+    </thead>
+
+    <% items.map(item => { %>
+        <tr class="skill-set__table-row">
+            <td class="skill-set__table-cell skill-set__table-cell--skill"><%= item.name %></td>
+            <td class="skill-set__table-cell skill-set__table-cell--exp"><%= item.exp %></td>
+            <td class="skill-set__table-cell skill-set__table-cell--last"><%= item.last %></td>
+        </tr>
+    <% }); %>
+
+    <tbody>
+    </tbody>
+</table>

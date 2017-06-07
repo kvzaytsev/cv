@@ -1,0 +1,17 @@
+.page-footer {
+  padding: 10px;
+  background-color: #888;
+  text-align: center;
+  display: none;
+}
+
+@media print {
+  .page-footer {
+    background-color: #888;
+    -webkit-print-color-adjust: exact;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
