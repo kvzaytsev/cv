@@ -1,0 +1,65 @@
+.projects {
+    padding: 0px 80px;
+}
+
+.projects__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.projects__header::after {
+    content: '(' attr(data-aux) ')';
+    text-transform: none;
+    color: var(--section-header-text-color);
+}
+
+.projects__table-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background: #ccc;
+}
+
+.projects__table-header--company {
+    flex: 3;
+    text-align: left;
+    column-span: 2;
+}
+
+.projects__table-header--years {
+    font-style: italic;
+}
+
+.projects__table-header-aux {
+    font-weight: bold;
+}
+
+.projects__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.projects__table-row {
+    border-bottom: 1px dotted #ccc;
+}
+
+.projects__table-row:last-child {
+    border-bottom: none;
+}
+
+.projects__table-cell {
+    padding: 5px 20px;
+}
+
+.projects__table-cell--key {
+    width: 30%;
+}
+
+.projects__table-cell--value {
+    width: 70%;
+}
+
+.projects__technologies-table {
+    width: 100%;
+}

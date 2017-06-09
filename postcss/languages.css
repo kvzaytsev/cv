@@ -1,0 +1,30 @@
+.languages {
+    padding: 0px 80px;
+}
+
+.languages__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.languages__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.languages__table-row {
+    border-bottom: 1px solid #ccc;
+}
+
+.languages__table-row:last-child {
+    border-bottom: none;
+}
+
+.languages__table-cell {
+    padding: 10px;
+}
+
+.languages__table-cell--lang {
+    width: 30%;
+    font-weight: bold;
+}

@@ -4,7 +4,7 @@
 
 .condidate-overview__header {
   text-transform: uppercase;
-  color: $section-header-text;
+  color: var(--section-header-text-color);
 }
 
 .condidate-overview__item {

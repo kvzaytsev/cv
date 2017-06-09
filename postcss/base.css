@@ -1,8 +1,26 @@
+:root {
+    --section-header-text-color: #b32b2b;
+    --page-header-bg-color: #888;
+    --page-header-text-color: #fff;
+}
+
+@media print {
+    :root {
+        --page-header-bg-color: none;
+    }
+}
+
 body {
   width: 960px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   border: 1px solid #ccc;
+}
+
+@media print {
+    body {
+        border: none;
+    }
 }
 
 .page-separator {

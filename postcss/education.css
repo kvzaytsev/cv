@@ -1,0 +1,12 @@
+.education {
+    padding: 0px 80px;
+}
+
+.education__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.education__years {
+    font-style: italic;
+}

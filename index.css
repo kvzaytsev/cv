@@ -1,69 +1,104 @@
+:root {
+    --section-header-text-color: #b32b2b;
+    --page-header-bg-color: #888;
+    --page-header-text-color: #fff;
+}
+
+@media print {
+    :root {
+        --page-header-bg-color: none;
+    }
+}
+
 body {
   width: 960px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   border: 1px solid #ccc;
 }
+
+@media print {
+    body {
+        border: none;
+    }
+}
+
 .page-separator {
     break-after: always;
     page-break-after: always;
 }
+
 .page-header {
   padding: 20px 80px;
-  background-color: #888;
+  background-color: var(--page-header-bg-color);
 }
+
 @media print {
   .page-header {
     background-color: #888;
     -webkit-print-color-adjust: exact;
   }
 }
+
 .page-header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .page-header__constacts {
   text-align: right;
 }
+
 .page-header__entity {
   display: block;
-  color: #fff;
+  color: var(--page-header-text-color);
 }
+
 .page-header__entity--name {
   font-size: 40px;
 }
+
 .page-header__entity--title {
   font-size: 24px;
 }
+
 .page-header__entity--email {
   font-size: 20px;
 }
+
 .page-header__entity--phone {
   font-size: 20px;
   text-decoration: none;
 }
+
 .condidate-overview {
   padding: 0px 80px;
 }
+
 .condidate-overview__header {
   text-transform: uppercase;
-  color: #b32b2b;
+  color: var(--section-header-text-color);
 }
+
 .condidate-overview__item {
   margin-top: 10px;
 }
+
 .skill-set {
   padding: 0px 80px;
 }
+
 .skill-set__header {
   text-transform: uppercase;
-  color: #b32b2b;
+  color: var(--section-header-text-color);
 }
+
 .skill-set__common-head {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .skill-set__common-col {
   border-top: 1px dotted #ccc;
   border-bottom: 1px dotted #ccc;
@@ -72,42 +107,163 @@ body {
   font-style: italic;
   color: #ccc;
 }
+
 .skill-set__common-col--tech {
   text-align: left;
   width: 60%;
 }
+
 .skill-set__common-col--exp {
   width: 20%;
 }
+
 .skill-set__common-col--last {
   width: 20%;
 }
+
 .skill-set__table {
   width: 100%;
   margin-bottom: 30px;
   border-collapse: collapse;
 }
+
 .skill-set__table-head {
   background-color: #ccc;
 }
+
 .skill-set__table-header {
   padding: 5px 20px;
   text-align: left;
 }
+
 .skill-set__table-row {
   border-bottom: 1px dotted #ccc;
 }
+
 .skill-set__table-cell {
   padding: 5px 20px;
   text-align: center;
 }
+
 .skill-set__table-cell--skill {
   width: 60%;
   text-align: left;
 }
+
 .skill-set__table-cell--exp {
   width: 20%;
 }
+
 .skill-set__table-cell--last {
   width: 20%;
+}
+
+.languages {
+    padding: 0px 80px;
+}
+
+.languages__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.languages__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.languages__table-row {
+    border-bottom: 1px solid #ccc;
+}
+
+.languages__table-row:last-child {
+    border-bottom: none;
+}
+
+.languages__table-cell {
+    padding: 10px;
+}
+
+.languages__table-cell--lang {
+    width: 30%;
+    font-weight: bold;
+}
+
+.education {
+    padding: 0px 80px;
+}
+
+.education__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.education__years {
+    font-style: italic;
+}
+
+.projects {
+    padding: 0px 80px;
+}
+
+.projects__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.projects__header::after {
+    content: '(' attr(data-aux) ')';
+    text-transform: none;
+    color: var(--section-header-text-color);
+}
+
+.projects__table-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background: #ccc;
+}
+
+.projects__table-header--company {
+    flex: 3;
+    text-align: left;
+    column-span: 2;
+}
+
+.projects__table-header--years {
+    font-style: italic;
+}
+
+.projects__table-header-aux {
+    font-weight: bold;
+}
+
+.projects__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.projects__table-row {
+    border-bottom: 1px dotted #ccc;
+}
+
+.projects__table-row:last-child {
+    border-bottom: none;
+}
+
+.projects__table-cell {
+    padding: 5px 20px;
+}
+
+.projects__table-cell--key {
+    width: 30%;
+}
+
+.projects__table-cell--value {
+    width: 70%;
+}
+
+.projects__technologies-table {
+    width: 100%;
 }

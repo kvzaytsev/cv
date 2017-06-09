@@ -1,0 +1,16 @@
+<section class="languages">
+
+    <h2 class="languages__header">
+        Languages
+    </h2>
+
+    <table class="languages__table">
+        <% items.map(item => { %>
+            <tr class="languages__table-row">
+                <td class="languages__table-cell languages__table-cell--lang"><%= item.name %></td>
+                <td class="languages__table-cell languages__table-cell--level"><%= item.level %></td>
+            </tr>
+        <% }); %>
+    </table>
+
+</section>
