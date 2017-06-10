@@ -63,3 +63,8 @@
 .projects__technologies-table {
     width: 100%;
 }
+
+.projects__technologies-table-cell {
+    width: 33%;
+    text-align: left;
+}

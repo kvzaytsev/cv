@@ -275,6 +275,64 @@
             "Ant"
           ]
         }
+      },
+      {
+        "company": "Applied Technologies",
+        "city": "Chelyabinsk",
+        "start": "2013, August",
+        "end": "2015, May",
+        "meta": {
+          "partner": "EGMA Systems",
+          "unit": "",
+          "project": "Automation control and acquisition system at the core of Power industry",
+          "position": "FullStack developer (JavaScript, Java)",
+          "team": "8",
+          "responsibilities": [
+            "Code maintenance of single-page web application for control machines.",
+            "Developing Control Charts module (history and real-time data monitoring).",
+            "Developing RESTful services server-side as well as client-side.",
+            "Maintenance and amending server-side designer application for creation control-pages based on SVG. (Written in Java)."
+          ],
+          "technologies": [
+            "JavaScript",
+            "Jasmin",
+            "HighCharts",
+            "Java",
+            "RequireJS",
+            "Handlebars",
+            "Batik SVG Toolkit",
+            "Eclipse GEF",
+            "Jackson"
+          ]
+        }
+      },
+      {
+        "company": "Applied Technologies",
+        "city": "Chelyabinsk",
+        "start": "2011, February",
+        "end": "2013, August",
+        "meta": {
+          "partner": "Rocket Software",
+          "unit": "Business Intelligence",
+          "project": "Enterprise solution for DB2 query, reporting and analytics",
+          "position": "Test Automation Engineer (Java)",
+          "team": "6",
+          "responsibilities": [
+            "Test case design and test plan management using Test Case Management system.",
+            "Developing automated test-scripts of desktop and web- applications using Java/ Selenium Webdriver / SWT Bot / JUnit.",
+            "Support of Test Management system (developing additional functionality for TMS what improves testing processes).",
+            "Bug reporting using Bug Tracking system.",
+            "Perform functional, installation, license, localization, load and usability testing for desktop and web applications."
+          ],
+          "technologies": [
+            "Java",
+            "SWTBot",
+            "Selenium Webdriver",
+            "PHP",
+            "Jira",
+            "JUnit"
+          ]
+        }
       }
     ]
   }

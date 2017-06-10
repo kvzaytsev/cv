@@ -4,7 +4,11 @@
         Professional experience
     </h2>
 
-    <% items.map(item => { %>
+    <% items.map((item, project_idx) => { %>
+
+        <% if (project_idx !== 0 && project_idx % 2 === 0) { %>
+            <div class="page-separator"></div>
+        <% } %>
 
         <div class="projects__table-head">
             <div class="projects__table-header projects__table-header--company">
@@ -57,7 +61,7 @@
                             <% output.map(bucket => { %>
                                 <tr>
                                     <% bucket.map(technology => { %>
-                                        <td> <%= technology %> </td>
+                                        <td class="projects__technologies-table-cell"> <%= technology %> </td>
                                     <% }) %>
                                 </tr>
                             <% }) %>
