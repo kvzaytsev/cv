@@ -64,6 +64,34 @@
     width: 100%;
 }
 
+.projects__responsibilities-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects__responsibilities-item {
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.projects__responsibilities-item:last-child {
+    padding-bottom: 0;
+}
+
+.projects__responsibilities-item::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    left: -15px;
+    top: 9px;
+    background-color: #888;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
 .projects__technologies-table-cell {
     width: 33%;
     text-align: left;
