@@ -9,22 +9,43 @@
     }
 }
 body {
-  width: 960px;
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
-  border: 1px solid #ccc;
-}
-@media print {
-    body {
-        border: none;
-    }
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 .page-separator {
     break-after: always;
     page-break-after: always;
 }
+body {
+    background: rgb(204,204,204);
+}
+.paper-page {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+.paper-page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+.paper-page__content {
+    flex: 1;
+}
+@media print {
+    body,
+    .paper-page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
 .page-header {
-  padding: 20px 80px;
+  padding: 0 1cm;
+  padding-top: 5mm;
+  padding-bottom: 5mm;
+  margin-bottom: 5mm;
   background-color: var(--page-header-bg-color);
 }
 @media print {
@@ -58,18 +79,36 @@ body {
   font-size: 20px;
   text-decoration: none;
 }
+.page-footer {
+  background-color: #888;
+  text-align: center;
+  color: #fff;
+  padding-top: 2mm;
+  padding-bottom: 2mm;
+}
+.page-footer__counter::after {
+  content: ' 1 ';
+  display: inline;
+}
+@media print {
+  .page-footer {
+    background-color: #888;
+    -webkit-print-color-adjust: exact;
+  }
+}
 .condidate-overview {
-  padding: 0px 80px;
+  padding: 0 1cm;
 }
 .condidate-overview__header {
   text-transform: uppercase;
   color: var(--section-header-text-color);
+  margin-top: 0;
 }
 .condidate-overview__item {
   margin-top: 10px;
 }
 .skill-set {
-  padding: 0px 80px;
+  padding: 0 1cm;
 }
 .skill-set__header {
   text-transform: uppercase;
@@ -87,15 +126,21 @@ body {
   font-style: italic;
   color: #ccc;
 }
+@media print {
+  .skill-set__table-head {
+    background-color: #ccc;
+    -webkit-print-color-adjust: exact;
+  }
+}
 .skill-set__common-col--tech {
   text-align: left;
-  width: 60%;
+  width: 50%;
 }
 .skill-set__common-col--exp {
-  width: 20%;
+  width: 25%;
 }
 .skill-set__common-col--last {
-  width: 20%;
+  width: 25%;
 }
 .skill-set__table {
   width: 100%;
@@ -117,17 +162,17 @@ body {
   text-align: center;
 }
 .skill-set__table-cell--skill {
-  width: 60%;
+  width: 50%;
   text-align: left;
 }
 .skill-set__table-cell--exp {
-  width: 20%;
+  width: 25%;
 }
 .skill-set__table-cell--last {
-  width: 20%;
+  width: 25%;
 }
 .languages {
-    padding: 0px 80px;
+    padding: 0 1cm;
 }
 .languages__header {
     text-transform: uppercase;
@@ -151,7 +196,7 @@ body {
     font-weight: bold;
 }
 .education {
-    padding: 0px 80px;
+    padding: 0 1cm;
 }
 .education__header {
     text-transform: uppercase;
@@ -161,7 +206,7 @@ body {
     font-style: italic;
 }
 .projects {
-    padding: 0px 80px;
+    padding: 0 1cm;
 }
 .projects__header {
     text-transform: uppercase;
@@ -177,6 +222,12 @@ body {
     justify-content: space-between;
     padding: 5px 20px;
     background: #ccc;
+}
+@media print {
+    .projects__table-head {
+        background-color: #ccc;
+        -webkit-print-color-adjust: exact;
+    }
 }
 .projects__table-header--company {
     flex: 3;

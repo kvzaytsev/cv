@@ -1,6 +1,8 @@
 @import "mixins.css";
 @import "base.css";
+@import "paper-page.css";
 @import "page-header.css";
+@import "page-footer.css";
 @import "condidate-overview.css";
 @import "skill-set.css";
 @import "languages.css";

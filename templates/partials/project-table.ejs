@@ -1,0 +1,60 @@
+<div class="projects__table-head">
+    <div class="projects__table-header projects__table-header--company">
+        <%= item.company %> (<%= item.city %>)
+    </div>
+    <div class="projects__table-header projects__table-header--years"><%= item.start %> &mdash; <%= item.end %></div>
+</div>
+
+<table class="projects__table">
+
+    <tbody>
+    <tr class="projects__table-row">
+        <td class="projects__table-cell projects__table-cell--key">Unit:</td>
+        <td class="projects__table-cell projects__table-cell--value"><%= item.meta.unit %></td>
+    </tr>
+    <tr class="projects__table-row">
+        <td class="projects__table-cell projects__table-cell--key">Partner:</td>
+        <td class="projects__table-cell projects__table-cell--value"><%= item.meta.partner %></td>
+    </tr>
+    <tr class="projects__table-row">
+        <td class="projects__table-cell projects__table-cell--key">Project overview:</td>
+        <td class="projects__table-cell projects__table-cell--value"><%= item.meta.project %></td>
+    </tr>
+    <tr class="projects__table-row">
+        <td class="projects__table-cell projects__table-cell--key">Team size:</td>
+        <td class="projects__table-cell projects__table-cell--value"><%= item.meta.team %></td>
+    </tr>
+    <tr class="projects__table-row">
+        <td class="projects__table-cell projects__table-cell--key">Responsibilities:</td>
+        <td class="projects__table-cell projects__table-cell--value">
+            <ul class="projects__responsibilities-list">
+                <% item.meta.responsibilities.map(responsibility => { %>
+                <li class="projects__responsibilities-item"> <%= responsibility %> </li>
+                <% }) %>
+            </ul>
+        </td>
+    </tr>
+    <tr class="projects__table-row">
+        <td class="projects__table-cell projects__table-cell--key">Technologies:</td>
+        <td class="projects__table-cell projects__table-cell--value">
+            <table class="projects__technologies-table">
+                <% let output = item.meta.technologies.reduce( (acc, item, idx) => { %>
+                <%     let bucket = Math.floor(idx/3); %>
+                <%     let cell = idx % 3; %>
+                <%     (typeof acc[bucket] === 'undefined') && (acc[bucket] = []); %>
+                <%     acc[bucket] [cell] = item; %>
+                <%     return acc; %>
+                <% }, []); %>
+
+                <% output.map(bucket => { %>
+                <tr>
+                    <% bucket.map(technology => { %>
+                    <td class="projects__technologies-table-cell"> <%= technology %> </td>
+                    <% }) %>
+                </tr>
+                <% }) %>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>

@@ -11,16 +11,8 @@
 }
 
 body {
-  width: 960px;
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
-  border: 1px solid #ccc;
-}
-
-@media print {
-    body {
-        border: none;
-    }
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .page-separator {

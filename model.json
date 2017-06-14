@@ -220,120 +220,118 @@
     "qualification": "Qualification of engineer."
   },
   "projects": {
-    "items": [
-      {
-        "company": "Epam Systems",
-        "city": "Saint Petersburg",
-        "start": "2016, August",
-        "end": "present",
-        "meta": {
-          "partner": "NIBR",
-          "unit": "Life Sciences",
-          "project": "Collaborative Authoring Tool",
-          "position": "Front-end developer",
-          "team": "6",
-          "responsibilities": [
-            "Legacy code maintenance and bug fixing.",
-            "Moving front-end build system from WRO to Gulp ( with integrating new part of application based on React which is built by means of Webpack ).",
-            "Designing and implementing improvements for existing functionality.",
-            "Developing of custom plugins for CKEditor."
-          ],
-          "technologies": [
-            "JavaScript (ES6)",
-            "jQuery",
-            "jQuery-UI",
-            "EJS",
-            "Gulp",
-            "Webpack"
-          ]
-        }
-      },
-      {
-        "company": "Applied Technologies",
-        "city": "Chelyabinsk",
-        "start": "2015, May",
-        "end": "2016, August",
-        "meta": {
-          "partner": "Rocket Software",
-          "unit": "LegaSuite",
-          "project": "Hybrid Mobile Applications builder",
-          "position": "Front-end developer",
-          "team": "7",
-          "responsibilities": [
-            "Legacy code maintenance.",
-            "Performance optimization.",
-            "Developing features of using native device capabilities in web application by means of plugins.",
-            "Setting up and configuring build environment.",
-            "Designing, prototyping and implementing new widgets."
-          ],
-          "technologies": [
-            "JavaScript",
-            "Phonegap (Cordova)",
-            "RequireJS",
-            "Qooxdoo",
-            "Jasmin",
-            "Ant"
-          ]
-        }
-      },
-      {
-        "company": "Applied Technologies",
-        "city": "Chelyabinsk",
-        "start": "2013, August",
-        "end": "2015, May",
-        "meta": {
-          "partner": "EGMA Systems",
-          "unit": "",
-          "project": "Automation control and acquisition system at the core of Power industry",
-          "position": "FullStack developer (JavaScript, Java)",
-          "team": "8",
-          "responsibilities": [
-            "Code maintenance of single-page web application for control machines.",
-            "Developing Control Charts module (history and real-time data monitoring).",
-            "Developing RESTful services server-side as well as client-side.",
-            "Maintenance and amending server-side designer application for creation control-pages based on SVG. (Written in Java)."
-          ],
-          "technologies": [
-            "JavaScript",
-            "Jasmin",
-            "HighCharts",
-            "Java",
-            "RequireJS",
-            "Handlebars",
-            "Batik SVG Toolkit",
-            "Eclipse GEF",
-            "Jackson"
-          ]
-        }
-      },
-      {
-        "company": "Applied Technologies",
-        "city": "Chelyabinsk",
-        "start": "2011, February",
-        "end": "2013, August",
-        "meta": {
-          "partner": "Rocket Software",
-          "unit": "Business Intelligence",
-          "project": "Enterprise solution for DB2 query, reporting and analytics",
-          "position": "Test Automation Engineer (Java)",
-          "team": "6",
-          "responsibilities": [
-            "Test case design and test plan management using Test Case Management system.",
-            "Developing automated test-scripts of desktop and web- applications using Java/ Selenium Webdriver / SWT Bot / JUnit.",
-            "Support of Test Management system (developing additional functionality for TMS what improves testing processes).",
-            "Bug reporting using Bug Tracking system.",
-            "Perform functional, installation, license, localization, load and usability testing for desktop and web applications."
-          ],
-          "technologies": [
-            "Java",
-            "SWTBot",
-            "Selenium Webdriver",
-            "PHP",
-            "Jira",
-            "JUnit"
-          ]
-        }
+    "cat": {
+      "company": "Epam Systems",
+      "city": "Saint Petersburg",
+      "start": "2016, August",
+      "end": "present",
+      "meta": {
+        "partner": "NIBR",
+        "unit": "Life Sciences",
+        "project": "Collaborative Authoring Tool",
+        "position": "Front-end developer",
+        "team": "6",
+        "responsibilities": [
+          "Legacy code maintenance and bug fixing.",
+          "Moving front-end build system from WRO to Gulp ( with integrating new part of application based on React which is built by means of Webpack ).",
+          "Designing and implementing improvements for existing functionality.",
+          "Developing of custom plugins for CKEditor."
+        ],
+        "technologies": [
+          "JavaScript (ES6)",
+          "jQuery",
+          "jQuery-UI",
+          "EJS",
+          "Gulp",
+          "Webpack"
+        ]
       }
-    ]
+    },
+    "mobile": {
+      "company": "Applied Technologies",
+      "city": "Chelyabinsk",
+      "start": "2015, May",
+      "end": "2016, August",
+      "meta": {
+        "partner": "Rocket Software",
+        "unit": "LegaSuite",
+        "project": "Hybrid Mobile Applications builder",
+        "position": "Front-end developer",
+        "team": "7",
+        "responsibilities": [
+          "Legacy code maintenance.",
+          "Performance optimization.",
+          "Developing features of using native device capabilities in web application by means of plugins.",
+          "Setting up and configuring build environment.",
+          "Designing, prototyping and implementing new widgets."
+        ],
+        "technologies": [
+          "JavaScript",
+          "Phonegap (Cordova)",
+          "RequireJS",
+          "Qooxdoo",
+          "Jasmin",
+          "Ant"
+        ]
+      }
+    },
+    "scada": {
+      "company": "Applied Technologies",
+      "city": "Chelyabinsk",
+      "start": "2013, August",
+      "end": "2015, May",
+      "meta": {
+        "partner": "EGMA Systems",
+        "unit": "",
+        "project": "Automation control and acquisition system at the core of Power industry",
+        "position": "FullStack developer (JavaScript, Java)",
+        "team": "8",
+        "responsibilities": [
+          "Code maintenance of single-page web application for control machines.",
+          "Developing Control Charts module (history and real-time data monitoring).",
+          "Developing RESTful services server-side as well as client-side.",
+          "Maintenance and amending server-side designer application for creation control-pages based on SVG. (Written in Java)."
+        ],
+        "technologies": [
+          "JavaScript",
+          "Jasmin",
+          "HighCharts",
+          "Java",
+          "RequireJS",
+          "Handlebars",
+          "Batik SVG Toolkit",
+          "Eclipse GEF",
+          "Jackson"
+        ]
+      }
+    },
+    "qmf": {
+      "company": "Applied Technologies",
+      "city": "Chelyabinsk",
+      "start": "2011, February",
+      "end": "2013, August",
+      "meta": {
+        "partner": "Rocket Software",
+        "unit": "Business Intelligence",
+        "project": "Enterprise solution for DB2 query, reporting and analytics",
+        "position": "Test Automation Engineer (Java)",
+        "team": "6",
+        "responsibilities": [
+          "Test case design and test plan management using Test Case Management system.",
+          "Developing automated test-scripts of desktop and web- applications using Java/ Selenium Webdriver / SWT Bot / JUnit.",
+          "Support of Test Management system (developing additional functionality for TMS what improves testing processes).",
+          "Bug reporting using Bug Tracking system.",
+          "Perform functional, installation, license, localization, load and usability testing for desktop and web applications."
+        ],
+        "technologies": [
+          "Java",
+          "SWTBot",
+          "Selenium Webdriver",
+          "PHP",
+          "Jira",
+          "JUnit"
+        ]
+      }
+    }
   }
 }

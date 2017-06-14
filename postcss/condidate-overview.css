@@ -1,10 +1,11 @@
 .condidate-overview {
-  padding: 0px 80px;
+  @mixin inner-block;
 }
 
 .condidate-overview__header {
   text-transform: uppercase;
   color: var(--section-header-text-color);
+  margin-top: 0;
 }
 
 .condidate-overview__item {

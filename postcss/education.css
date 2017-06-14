@@ -1,5 +1,5 @@
 .education {
-    padding: 0px 80px;
+    @mixin inner-block;
 }
 
 .education__header {

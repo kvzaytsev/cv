@@ -1,5 +1,8 @@
 .page-header {
   @mixin inner-block;
+  padding-top: 5mm;
+  padding-bottom: 5mm;
+  margin-bottom: 5mm;
   background-color: var(--page-header-bg-color);
 }
 

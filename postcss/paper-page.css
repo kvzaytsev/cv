@@ -1,0 +1,29 @@
+body {
+    background: rgb(204,204,204);
+}
+
+.paper-page {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+.paper-page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.paper-page__content {
+    flex: 1;
+}
+
+@media print {
+    body,
+    .paper-page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}

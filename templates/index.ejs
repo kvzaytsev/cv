@@ -12,20 +12,80 @@
 
 <body>
 
-<%- include('partials/header', person); %>
+    <div class="paper-page" size="A4">
+        <%- include('partials/header', person); %>
+        <div class="paper-page__content">
+            <%- include('partials/overview', overview); %>
+            <section class="skill-set">
 
-<main>
+                <h2 class="skill-set__header">
+                    Skill set
+                </h2>
 
-    <%- include('partials/overview', overview); %>
-    <%- include('partials/skill-set', skills); %>
-    <%- include('partials/languages', {items: languages}); %>
-    <%- include('partials/education', education); %>
+                <table class="skill-set__common-head">
+                    <thead>
+                        <th class="skill-set__common-col skill-set__common-col--tech">Technology, Tool, Skill</th>
+                        <th class="skill-set__common-col skill-set__common-col--exp">Experience (years)</th>
+                        <th class="skill-set__common-col skill-set__common-col--last">Last time used</th>
+                    </thead>
+                </table>
 
-    <div class="page-separator"></div>
+                <%- include('partials/skill-table', skills.languages); %>
+                <%- include('partials/skill-table', skills.frameworks); %>
 
-    <%- include('partials/projects', projects); %>
+            </section>
+        </div>
+        <%- include('partials/footer', {}); %>
+    </div>
 
-</main>
+    <div class="paper-page" size="A4">
+        <%- include('partials/header', person); %>
+        <div class="paper-page__content">
+
+            <section class="skill-set">
+                <%- include('partials/skill-table', skills.dbms); %>
+                <%- include('partials/skill-table', skills.appservers); %>
+                <%- include('partials/skill-table', skills.tools); %>
+            </section>
+
+            <%- include('partials/languages', {items: languages}); %>
+            <%- include('partials/education', education); %>
+        </div>
+        <%- include('partials/footer', {}); %>
+    </div>
+
+
+    <div class="paper-page" size="A4">
+        <%- include('partials/header', person); %>
+        <div class="paper-page__content">
+
+            <section class="projects">
+
+                <h2 class="projects__header" data-aux="examples of recent projects">
+                    Professional experience
+                </h2>
+
+                <%- include('partials/project-table', {item: projects.cat}); %>
+                <%- include('partials/project-table', {item: projects.mobile}); %>
+
+            </section>
+        </div>
+        <%- include('partials/footer', {}); %>
+    </div>
+
+    <div class="paper-page" size="A4">
+        <%- include('partials/header', person); %>
+        <div class="paper-page__content">
+
+            <section class="projects">
+
+                <%- include('partials/project-table', {item: projects.scada}); %>
+                <%- include('partials/project-table', {item: projects.qmf}); %>
+
+            </section>
+        </div>
+        <%- include('partials/footer', {}); %>
+    </div>
 
 </body>
 
