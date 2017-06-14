@@ -120,6 +120,12 @@
           "isProd": true
         },
         {
+          "name": "LESS",
+          "exp": 2,
+          "last": "2016",
+          "isProd": true
+        },
+        {
           "name": "Eclipse RCP",
           "exp": 2,
           "last": "2015",
@@ -219,6 +225,16 @@
     "university": "South Ural State University, Chelyabinsk, Russia. Specialist of Computer Science.",
     "qualification": "Qualification of engineer."
   },
+  "addEducation": [
+    {
+      "company": "HTML Academy",
+      "course": "HTML & CSS basic course"
+    },
+    {
+      "company": "HTML Academy",
+      "course": "HTML & CSS advanced course"
+    }
+  ],
   "projects": {
     "cat": {
       "company": "Epam Systems",

@@ -7,6 +7,11 @@
     color: var(--section-header-text-color);
 }
 
-.education__years {
+.education__part {
+  margin-top: 1mm;
+  margin-bottom: 1mm;
+}
+
+.education__part--years {
     font-style: italic;
 }

@@ -191,6 +191,9 @@ body {
 .languages__table-cell {
     padding: 10px;
 }
+.languages__table-row:first-child .languages__table-cell {
+    padding-top: 0;
+}
 .languages__table-cell--lang {
     width: 30%;
     font-weight: bold;
@@ -202,8 +205,39 @@ body {
     text-transform: uppercase;
     color: var(--section-header-text-color);
 }
-.education__years {
+.education__part {
+  margin-top: 1mm;
+  margin-bottom: 1mm;
+}
+.education__part--years {
     font-style: italic;
+}
+.additional-education {
+    padding: 0 1cm;
+}
+.additional-education__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+.additional-education__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.additional-education__table-row {
+    border-bottom: 1px solid #ccc;
+}
+.additional-education__table-row:last-child {
+    border-bottom: none;
+}
+.additional-education__table-cell {
+    padding: 10px;
+}
+.additional-education__table-row:first-child .additional-education__table-cell {
+    padding-top: 0;
+}
+.additional-education__table-cell--company {
+    width: 30%;
+    font-weight: bold;
 }
 .projects {
     padding: 0 1cm;

@@ -24,6 +24,10 @@
     padding: 10px;
 }
 
+.languages__table-row:first-child .languages__table-cell {
+    padding-top: 0;
+}
+
 .languages__table-cell--lang {
     width: 30%;
     font-weight: bold;

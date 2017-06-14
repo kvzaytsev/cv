@@ -1,0 +1,34 @@
+.additional-education {
+    @mixin inner-block;
+}
+
+.additional-education__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.additional-education__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.additional-education__table-row {
+    border-bottom: 1px solid #ccc;
+}
+
+.additional-education__table-row:last-child {
+    border-bottom: none;
+}
+
+.additional-education__table-cell {
+    padding: 10px;
+}
+
+.additional-education__table-row:first-child .additional-education__table-cell {
+    padding-top: 0;
+}
+
+.additional-education__table-cell--company {
+    width: 30%;
+    font-weight: bold;
+}
