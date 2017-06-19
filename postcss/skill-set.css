@@ -1,79 +1,78 @@
 .skill-set {
-  @mixin inner-block;
+    @mixin inner-block;
 }
 
 .skill-set__header {
-  text-transform: uppercase;
-  color: var(--section-header-text-color);
+    @mixin section-header;
 }
 
 .skill-set__common-head {
-  width: 100%;
-  margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .skill-set__common-col {
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
-  padding: 10px;
-  font-weight: normal;
-  font-style: italic;
-  color: #ccc;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #ccc;
 }
 
 @media print {
-  .skill-set__table-head {
-    background-color: #ccc;
-    -webkit-print-color-adjust: exact;
-  }
+    .skill-set__table-head {
+        background-color: #ccc;
+        -webkit-print-color-adjust: exact;
+    }
 }
 
 .skill-set__common-col--tech {
-  text-align: left;
-  width: 50%;
+    text-align: left;
+    width: 50%;
 }
 
 .skill-set__common-col--exp {
-  width: 25%;
+    width: 25%;
 }
 
 .skill-set__common-col--last {
-  width: 25%;
+    width: 25%;
 }
 
 .skill-set__table {
-  width: 100%;
-  margin-bottom: 30px;
-  border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
 }
 
 .skill-set__table-head {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
 .skill-set__table-header {
-  padding: 5px 20px;
-  text-align: left;
+    padding: 5px 20px;
+    text-align: left;
 }
 
 .skill-set__table-row {
-  border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
 }
 
 .skill-set__table-cell {
-  padding: 5px 20px;
-  text-align: center;
+    padding: 5px 20px;
+    text-align: center;
 }
 
 .skill-set__table-cell--skill {
-  width: 50%;
-  text-align: left;
+    width: 50%;
+    text-align: left;
 }
 
 .skill-set__table-cell--exp {
-  width: 25%;
+    width: 25%;
 }
 
 .skill-set__table-cell--last {
-  width: 25%;
+    width: 25%;
 }

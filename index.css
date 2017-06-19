@@ -3,22 +3,27 @@
     --page-header-bg-color: #888;
     --page-header-text-color: #fff;
 }
+
 @media print {
     :root {
         --page-header-bg-color: none;
     }
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
+
 .page-separator {
     break-after: always;
     page-break-after: always;
 }
+
 body {
     background: rgb(204,204,204);
 }
+
 .paper-page {
     background: white;
     display: flex;
@@ -27,13 +32,16 @@ body {
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
 }
+
 .paper-page[size="A4"] {
     width: 21cm;
     height: 29.7cm;
 }
+
 .paper-page__content {
     flex: 1;
 }
+
 @media print {
     body,
     .paper-page {
@@ -41,274 +49,344 @@ body {
         box-shadow: 0;
     }
 }
+
 .page-header {
-  padding: 0 1cm;
-  padding-top: 5mm;
-  padding-bottom: 5mm;
-  margin-bottom: 5mm;
-  background-color: var(--page-header-bg-color);
+    padding: 0 1cm;
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+    margin-bottom: 5mm;
+    background-color: var(--page-header-bg-color);
 }
+
 @media print {
-  .page-header {
-    background-color: #888;
-    -webkit-print-color-adjust: exact;
-  }
+    .page-header {
+        background-color: #888;
+        -webkit-print-color-adjust: exact;
+    }
 }
+
 .page-header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .page-header__constacts {
-  text-align: right;
+    text-align: right;
 }
+
 .page-header__entity {
-  display: block;
-  color: var(--page-header-text-color);
+    display: block;
+    color: var(--page-header-text-color);
 }
+
 .page-header__entity--name {
-  font-size: 40px;
+    font-size: 40px;
 }
+
 .page-header__entity--title {
-  font-size: 24px;
+    font-size: 24px;
 }
+
 .page-header__entity--email {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .page-header__entity--phone {
-  font-size: 20px;
-  text-decoration: none;
+    font-size: 20px;
+    text-decoration: none;
 }
+
 .page-footer {
-  background-color: #888;
-  text-align: center;
-  color: #fff;
-  padding-top: 2mm;
-  padding-bottom: 2mm;
-}
-.page-footer__counter::after {
-  content: ' 1 ';
-  display: inline;
-}
-@media print {
-  .page-footer {
     background-color: #888;
-    -webkit-print-color-adjust: exact;
-  }
+    text-align: center;
+    color: #fff;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
 }
-.condidate-overview {
-  padding: 0 1cm;
+
+.page-footer__counter::after {
+    content: ' 1 ';
+    display: inline;
 }
-.condidate-overview__header {
-  text-transform: uppercase;
-  color: var(--section-header-text-color);
-  margin-top: 0;
-}
-.condidate-overview__item {
-  margin-top: 10px;
-}
-.skill-set {
-  padding: 0 1cm;
-}
-.skill-set__header {
-  text-transform: uppercase;
-  color: var(--section-header-text-color);
-}
-.skill-set__common-head {
-  width: 100%;
-  margin-bottom: 10px;
-}
-.skill-set__common-col {
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
-  padding: 10px;
-  font-weight: normal;
-  font-style: italic;
-  color: #ccc;
-}
+
 @media print {
-  .skill-set__table-head {
-    background-color: #ccc;
-    -webkit-print-color-adjust: exact;
-  }
+    .page-footer {
+      background-color: #888;
+      -webkit-print-color-adjust: exact;
+    }
 }
+
+.condidate-overview {
+    padding: 0 1cm;
+}
+
+.condidate-overview__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+    margin-top: 0;
+}
+
+.condidate-overview__item {
+    margin-top: 10px;
+}
+
+.skill-set {
+    padding: 0 1cm;
+}
+
+.skill-set__header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}
+
+.skill-set__common-head {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skill-set__common-col {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #ccc;
+}
+
+@media print {
+    .skill-set__table-head {
+        background-color: #ccc;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
 .skill-set__common-col--tech {
-  text-align: left;
-  width: 50%;
+    text-align: left;
+    width: 50%;
 }
+
 .skill-set__common-col--exp {
-  width: 25%;
+    width: 25%;
 }
+
 .skill-set__common-col--last {
-  width: 25%;
+    width: 25%;
 }
+
 .skill-set__table {
-  width: 100%;
-  margin-bottom: 30px;
-  border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
 }
+
 .skill-set__table-head {
-  background-color: #ccc;
+    background-color: #ccc;
 }
+
 .skill-set__table-header {
-  padding: 5px 20px;
-  text-align: left;
+    padding: 5px 20px;
+    text-align: left;
 }
+
 .skill-set__table-row {
-  border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
 }
+
 .skill-set__table-cell {
-  padding: 5px 20px;
-  text-align: center;
+    padding: 5px 20px;
+    text-align: center;
 }
+
 .skill-set__table-cell--skill {
-  width: 50%;
-  text-align: left;
+    width: 50%;
+    text-align: left;
 }
+
 .skill-set__table-cell--exp {
-  width: 25%;
+    width: 25%;
 }
+
 .skill-set__table-cell--last {
-  width: 25%;
+    width: 25%;
 }
+
 .languages {
     padding: 0 1cm;
 }
+
 .languages__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
 }
+
 .languages__table {
     width: 100%;
     border-collapse: collapse;
 }
+
 .languages__table-row {
     border-bottom: 1px solid #ccc;
 }
+
 .languages__table-row:last-child {
     border-bottom: none;
 }
+
 .languages__table-cell {
     padding: 10px;
 }
+
 .languages__table-row:first-child .languages__table-cell {
     padding-top: 0;
 }
+
 .languages__table-cell--lang {
     width: 30%;
     font-weight: bold;
 }
+
 .education {
     padding: 0 1cm;
 }
+
 .education__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
 }
+
 .education__part {
-  margin-top: 1mm;
-  margin-bottom: 1mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
 }
+
 .education__part--years {
     font-style: italic;
 }
+
 .additional-education {
     padding: 0 1cm;
 }
+
 .additional-education__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
 }
+
 .additional-education__table {
     width: 100%;
     border-collapse: collapse;
 }
+
 .additional-education__table-row {
     border-bottom: 1px solid #ccc;
 }
+
 .additional-education__table-row:last-child {
     border-bottom: none;
 }
+
 .additional-education__table-cell {
     padding: 10px;
 }
+
 .additional-education__table-row:first-child .additional-education__table-cell {
     padding-top: 0;
 }
+
 .additional-education__table-cell--company {
     width: 30%;
     font-weight: bold;
 }
+
 .projects {
     padding: 0 1cm;
 }
+
 .projects__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
 }
+
 .projects__header::after {
     content: '(' attr(data-aux) ')';
     text-transform: none;
     color: var(--section-header-text-color);
 }
+
 .projects__table-head {
     display: flex;
     justify-content: space-between;
     padding: 5px 20px;
     background: #ccc;
 }
+
 @media print {
     .projects__table-head {
         background-color: #ccc;
         -webkit-print-color-adjust: exact;
     }
 }
+
 .projects__table-header--company {
     flex: 3;
     text-align: left;
     column-span: 2;
 }
+
 .projects__table-header--years {
     font-style: italic;
 }
+
 .projects__table-header-aux {
     font-weight: bold;
 }
+
 .projects__table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 30px;
 }
+
 .projects__table-row {
     border-bottom: 1px dotted #ccc;
 }
+
 .projects__table-row:last-child {
     border-bottom: none;
 }
+
 .projects__table-cell {
     padding: 5px 20px;
 }
+
 .projects__table-cell--key {
     width: 30%;
 }
+
 .projects__table-cell--value {
     width: 70%;
 }
+
 .projects__technologies-table {
     width: 100%;
 }
+
 .projects__responsibilities-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 .projects__responsibilities-item {
     padding-bottom: 5px;
     position: relative;
 }
+
 .projects__responsibilities-item:last-child {
     padding-bottom: 0;
 }
+
 .projects__responsibilities-item::before {
     content: "";
     position: absolute;
@@ -321,6 +399,7 @@ body {
     transform: rotate(45deg);
     transform-origin: center;
 }
+
 .projects__technologies-table-cell {
     width: 33%;
     text-align: left;

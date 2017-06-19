@@ -1,46 +1,46 @@
 .page-header {
-  @mixin inner-block;
-  padding-top: 5mm;
-  padding-bottom: 5mm;
-  margin-bottom: 5mm;
-  background-color: var(--page-header-bg-color);
+    @mixin inner-block;
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+    margin-bottom: 5mm;
+    background-color: var(--page-header-bg-color);
 }
 
 @media print {
-  .page-header {
-    background-color: #888;
-    -webkit-print-color-adjust: exact;
-  }
+    .page-header {
+        background-color: #888;
+        -webkit-print-color-adjust: exact;
+    }
 }
 
 .page-header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .page-header__constacts {
-  text-align: right;
+    text-align: right;
 }
 
 .page-header__entity {
-  display: block;
-  color: var(--page-header-text-color);
+    display: block;
+    color: var(--page-header-text-color);
 }
 
 .page-header__entity--name {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .page-header__entity--title {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .page-header__entity--email {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .page-header__entity--phone {
-  font-size: 20px;
-  text-decoration: none;
+    font-size: 20px;
+    text-decoration: none;
 }

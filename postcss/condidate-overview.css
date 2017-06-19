@@ -1,13 +1,12 @@
 .condidate-overview {
-  @mixin inner-block;
+    @mixin inner-block;
 }
 
 .condidate-overview__header {
-  text-transform: uppercase;
-  color: var(--section-header-text-color);
-  margin-top: 0;
+    @mixin section-header;
+    margin-top: 0;
 }
 
 .condidate-overview__item {
-  margin-top: 10px;
+    margin-top: 10px;
 }

@@ -3,13 +3,12 @@
 }
 
 .education__header {
-    text-transform: uppercase;
-    color: var(--section-header-text-color);
+    @mixin section-header;
 }
 
 .education__part {
-  margin-top: 1mm;
-  margin-bottom: 1mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
 }
 
 .education__part--years {

@@ -1,3 +1,8 @@
 @define-mixin inner-block {
     padding: 0 1cm;
 }
+
+@define-mixin section-header {
+    text-transform: uppercase;
+    color: var(--section-header-text-color);
+}

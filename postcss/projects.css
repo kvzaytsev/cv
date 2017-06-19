@@ -3,8 +3,7 @@
 }
 
 .projects__header {
-    text-transform: uppercase;
-    color: var(--section-header-text-color);
+    @mixin section-header;
 }
 
 .projects__header::after {

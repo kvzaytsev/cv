@@ -3,8 +3,7 @@
 }
 
 .languages__header {
-    text-transform: uppercase;
-    color: var(--section-header-text-color);
+    @mixin section-header;
 }
 
 .languages__table {
