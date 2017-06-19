@@ -1,3 +1,8 @@
+:root {
+    counter-reset: page;
+}
+
+
 .page-footer {
     background-color: #888;
     text-align: center;
@@ -7,7 +12,8 @@
 }
 
 .page-footer__counter::after {
-    content: ' 1 ';
+    counter-increment: page;
+    content: " " counter(page);
     display: inline;
 }
 

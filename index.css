@@ -97,6 +97,10 @@ body {
     text-decoration: none;
 }
 
+:root {
+    counter-reset: page;
+}
+
 .page-footer {
     background-color: #888;
     text-align: center;
@@ -106,7 +110,8 @@ body {
 }
 
 .page-footer__counter::after {
-    content: ' 1 ';
+    counter-increment: page;
+    content: " " counter(page);
     display: inline;
 }
 
