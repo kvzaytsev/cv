@@ -130,6 +130,30 @@
           "exp": 2,
           "last": "2015",
           "isProd": true
+        },
+        {
+          "name": "Jackson",
+          "exp": 1,
+          "last": "2015",
+          "isProd": true
+        },
+        {
+          "name": "Jersey",
+          "exp": 1,
+          "last": "2015",
+          "isProd": true
+        },
+        {
+          "name": "Batik SVG Toolkit",
+          "exp": 1,
+          "last": "2015",
+          "isProd": true
+        },
+        {
+          "name": "JAXB",
+          "exp": 1,
+          "last": "2015",
+          "isProd": true
         }
       ]
     },

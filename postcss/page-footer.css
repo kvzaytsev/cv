@@ -4,7 +4,7 @@
 
 
 .page-footer {
-    background-color: #888;
+    background-color: var(--page-header-bg-color);
     text-align: center;
     color: #fff;
     padding-top: 2mm;
@@ -19,7 +19,7 @@
 
 @media print {
     .page-footer {
-      background-color: #888;
+      background-color: var(--page-header-bg-color);
       -webkit-print-color-adjust: exact;
     }
 }

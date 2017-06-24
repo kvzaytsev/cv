@@ -5,4 +5,6 @@
 @define-mixin section-header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
+    margin-top: 5mm;
+    margin-bottom: 3mm;
 }

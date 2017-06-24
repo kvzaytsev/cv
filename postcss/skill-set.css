@@ -14,7 +14,7 @@
 .skill-set__common-col {
     border-top: 1px dotted #ccc;
     border-bottom: 1px dotted #ccc;
-    padding: 10px;
+    padding: 5px 10px;
     font-weight: normal;
     font-style: italic;
     color: #ccc;
@@ -44,6 +44,10 @@
     width: 100%;
     margin-bottom: 30px;
     border-collapse: collapse;
+}
+
+.skill-set__table:last-child {
+    margin-bottom: 0;
 }
 
 .skill-set__table-head {

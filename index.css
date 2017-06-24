@@ -60,7 +60,7 @@ body {
 
 @media print {
     .page-header {
-        background-color: #888;
+        background-color: #888; /* css custom properties do not work on print*/
         -webkit-print-color-adjust: exact;
     }
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .page-footer {
-    background-color: #888;
+    background-color: var(--page-header-bg-color);
     text-align: center;
     color: #fff;
     padding-top: 2mm;
@@ -117,7 +117,7 @@ body {
 
 @media print {
     .page-footer {
-      background-color: #888;
+      background-color: var(--page-header-bg-color);
       -webkit-print-color-adjust: exact;
     }
 }
@@ -129,6 +129,8 @@ body {
 .condidate-overview__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
+    margin-top: 5mm;
+    margin-bottom: 3mm;
     margin-top: 0;
 }
 
@@ -143,6 +145,8 @@ body {
 .skill-set__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
+    margin-top: 5mm;
+    margin-bottom: 3mm;
 }
 
 .skill-set__common-head {
@@ -153,7 +157,7 @@ body {
 .skill-set__common-col {
     border-top: 1px dotted #ccc;
     border-bottom: 1px dotted #ccc;
-    padding: 10px;
+    padding: 5px 10px;
     font-weight: normal;
     font-style: italic;
     color: #ccc;
@@ -183,6 +187,10 @@ body {
     width: 100%;
     margin-bottom: 30px;
     border-collapse: collapse;
+}
+
+.skill-set__table:last-child {
+    margin-bottom: 0;
 }
 
 .skill-set__table-head {
@@ -223,6 +231,8 @@ body {
 .languages__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
+    margin-top: 5mm;
+    margin-bottom: 3mm;
 }
 
 .languages__table {
@@ -239,7 +249,7 @@ body {
 }
 
 .languages__table-cell {
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .languages__table-row:first-child .languages__table-cell {
@@ -258,6 +268,8 @@ body {
 .education__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
+    margin-top: 5mm;
+    margin-bottom: 3mm;
 }
 
 .education__part {
@@ -292,7 +304,7 @@ body {
 }
 
 .additional-education__table-cell {
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .additional-education__table-row:first-child .additional-education__table-cell {
@@ -311,6 +323,8 @@ body {
 .projects__header {
     text-transform: uppercase;
     color: var(--section-header-text-color);
+    margin-top: 5mm;
+    margin-bottom: 3mm;
 }
 
 .projects__header::after {

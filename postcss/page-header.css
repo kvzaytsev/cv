@@ -8,7 +8,7 @@
 
 @media print {
     .page-header {
-        background-color: #888;
+        background-color: #888; /* css custom properties do not work on print*/
         -webkit-print-color-adjust: exact;
     }
 }
