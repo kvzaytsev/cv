@@ -29,18 +29,18 @@
 }
 
 .page-header__entity--name {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .page-header__entity--title {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .page-header__entity--email {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .page-header__entity--phone {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }

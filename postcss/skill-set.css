@@ -42,7 +42,7 @@
 
 .skill-set__table {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-collapse: collapse;
 }
 
@@ -61,6 +61,10 @@
 
 .skill-set__table-row {
     border-bottom: 1px dotted #ccc;
+}
+
+.skill-set__table-row:last-child {
+    border-bottom: none;
 }
 
 .skill-set__table-cell {

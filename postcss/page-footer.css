@@ -19,7 +19,7 @@
 
 @media print {
     .page-footer {
-      background-color: var(--page-header-bg-color);
+      background-color: #888;
       -webkit-print-color-adjust: exact;
     }
 }
