@@ -39,117 +39,136 @@
       ]
     },
     "frameworks": {
-      "title": "Frameworks and Technologies",
-      "items": [
-        {
-          "name": "React + Redux",
-          "exp": 0.5,
-          "last": "Currently",
-          "isProd": true
-        },
-        {
-          "name": "jQuery",
-          "exp": 3,
-          "last": "Currently",
-          "isProd": true
-        },
-        {
-          "name": "jQuery-UI",
-          "exp": 1,
-          "last": "Currently",
-          "isProd": true
-        },
-        {
-          "name": "Gulp",
-          "exp": 1,
-          "last": "Currently",
-          "isProd": true
-        },
-        {
-          "name": "Webpack",
-          "exp": 1,
-          "last": "Currently",
-          "isProd": true
-        },
-        {
-          "name": "EJS",
-          "exp": 1,
-          "last": "Currently",
-          "isProd": true
-        },
-        {
-          "name": "RequireJS",
-          "exp": 2,
-          "last": "2016",
-          "isProd": true
-        },
-        {
-          "name": "Phonegap (Cordova)",
-          "exp": 1,
-          "last": "2016",
-          "isProd": true
-        },
-        {
-          "name": "Handlebars",
-          "exp": 1,
-          "last": "2015",
-          "isProd": true
-        },
-        {
-          "name": "Qooxdoo",
-          "exp": 1,
-          "last": "2016",
-          "isProd": true
-        },
-        {
-          "name": "HighCharts",
-          "exp": 1,
-          "last": "2015",
-          "isProd": true
-        },
-        {
-          "name": "Nightwatch.js",
-          "exp": 1,
-          "last": "2016",
-          "isProd": true
-        },
-        {
-          "name": "Jasmin",
-          "exp": 2,
-          "last": "2016",
-          "isProd": true
-        },
-        {
-          "name": "LESS",
-          "exp": 2,
-          "last": "2016",
-          "isProd": true
-        },
-        {
-          "name": "Eclipse RCP",
-          "exp": 2,
-          "last": "2015",
-          "isProd": true
-        },
-        {
-          "name": "Jackson",
-          "exp": 1,
-          "last": "2015",
-          "isProd": true
-        },
-        {
-          "name": "Jersey",
-          "exp": 1,
-          "last": "2015",
-          "isProd": true
-        },
-        {
-          "name": "Batik SVG Toolkit",
-          "exp": 1,
-          "last": "2015",
-          "isProd": true
-        }
-      ]
+      "js": {
+        "title": "Frameworks and Technologies (JavaScript)",
+        "items": [
+          {
+            "name": "React",
+            "exp": 0.5,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "Redux",
+            "exp": 0.5,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "jQuery",
+            "exp": 3,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "jQuery-UI",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "Gulp",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "Webpack",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "EJS",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "RequireJS",
+            "exp": 2,
+            "last": "2016",
+            "isProd": true
+          },
+          {
+            "name": "Phonegap (Cordova)",
+            "exp": 1,
+            "last": "2016",
+            "isProd": true
+          },
+          {
+            "name": "Handlebars",
+            "exp": 1,
+            "last": "2015",
+            "isProd": true
+          },
+          {
+            "name": "Qooxdoo",
+            "exp": 1,
+            "last": "2016",
+            "isProd": true
+          },
+          {
+            "name": "HighCharts",
+            "exp": 1,
+            "last": "2015",
+            "isProd": true
+          },
+          {
+            "name": "Nightwatch.js",
+            "exp": 1,
+            "last": "2016",
+            "isProd": true
+          },
+          {
+            "name": "Jasmin",
+            "exp": 2,
+            "last": "2016",
+            "isProd": true
+          },
+          {
+            "name": "LESS",
+            "exp": 2,
+            "last": "2016",
+            "isProd": true
+          }
+        ]
+      },
+      "java": {
+        "title": "Frameworks and Technologies (Java)",
+        "items": [
+          {
+            "name": "Eclipse RCP",
+            "exp": 2,
+            "last": "2015",
+            "isProd": true
+          },
+          {
+            "name": "Eclipse GEF",
+            "exp": 2,
+            "last": "2015",
+            "isProd": true
+          },
+          {
+            "name": "Jackson",
+            "exp": 1,
+            "last": "2015",
+            "isProd": true
+          },
+          {
+            "name": "Jersey",
+            "exp": 1,
+            "last": "2015",
+            "isProd": true
+          },
+          {
+            "name": "Batik SVG Toolkit",
+            "exp": 1,
+            "last": "2015",
+            "isProd": true
+          }
+        ]
+      }
     },
     "dbms": {
       "title": "Database Management Systems",

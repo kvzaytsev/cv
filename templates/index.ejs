@@ -31,7 +31,7 @@
                 </table>
 
                 <%- include('partials/skill-table', skills.languages); %>
-                <%- include('partials/skill-table', skills.frameworks); %>
+                <%- include('partials/skill-table', skills.frameworks.js); %>
 
             </section>
         </div>
@@ -43,8 +43,8 @@
         <div class="paper-page__content">
 
             <section class="skill-set">
+                <%- include('partials/skill-table', skills.frameworks.java); %>
                 <%- include('partials/skill-table', skills.dbms); %>
-                <%- include('partials/skill-table', skills.appservers); %>
                 <%- include('partials/skill-table', skills.tools); %>
             </section>
 
