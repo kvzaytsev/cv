@@ -73,6 +73,12 @@
             "isProd": true
           },
           {
+            "name": "Browserify",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
             "name": "Webpack",
             "exp": 1,
             "last": "Currently",
@@ -162,6 +168,12 @@
             "isProd": true
           },
           {
+            "name": "JAXB",
+            "exp": 1,
+            "last": "2015",
+            "isProd": true
+          },
+          {
             "name": "Batik SVG Toolkit",
             "exp": 1,
             "last": "2015",
@@ -217,11 +229,6 @@
           "name": "Jira",
           "exp": 5,
           "last": "Currently"
-        },
-        {
-          "name": "Eclipse",
-          "exp": 3,
-          "last": "2015"
         },
         {
           "name": "SVN",
