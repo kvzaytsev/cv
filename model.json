@@ -286,9 +286,9 @@
       "start": "2016, August",
       "end": "present",
       "meta": {
-        "partner": "NIBR",
+        "partner": "",
         "unit": "Life Sciences",
-        "project": "Collaborative Authoring Tool",
+        "project": "CAT",
         "position": "Front-end developer",
         "team": "6",
         "responsibilities": [
