@@ -27,11 +27,6 @@
           "last": "2015"
         },
         {
-          "name": "PHP",
-          "exp": 2,
-          "last": "2014"
-        },
-        {
           "name": "HTML5, CSS3, JSON, SVG, XML",
           "exp": 3,
           "last": "Currently"
@@ -44,36 +39,30 @@
         "items": [
           {
             "name": "React",
-            "exp": 0.5,
-            "last": "Currently",
-            "isProd": true
-          },
-          {
-            "name": "Redux",
-            "exp": 0.5,
-            "last": "Currently",
-            "isProd": true
-          },
-          {
-            "name": "jQuery",
-            "exp": 3,
-            "last": "Currently",
-            "isProd": true
-          },
-          {
-            "name": "jQuery-UI",
             "exp": 1,
             "last": "Currently",
             "isProd": true
           },
           {
-            "name": "Gulp",
+            "name": "Redux (in conjunction with redux-saga)",
             "exp": 1,
             "last": "Currently",
             "isProd": true
           },
           {
-            "name": "Browserify",
+            "name": "NodeJS",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "Express",
+            "exp": 1,
+            "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "AWS-SDK",
             "exp": 1,
             "last": "Currently",
             "isProd": true
@@ -85,9 +74,33 @@
             "isProd": true
           },
           {
-            "name": "EJS",
+            "name": "Mocha (in conjunction with Chai)",
             "exp": 1,
             "last": "Currently",
+            "isProd": true
+          },
+          {
+            "name": "jQuery",
+            "exp": 3,
+            "last": "2017",
+            "isProd": true
+          },
+          {
+            "name": "jQuery-UI",
+            "exp": 1,
+            "last": "2017",
+            "isProd": true
+          },
+          {
+            "name": "Gulp",
+            "exp": 1,
+            "last": "2017",
+            "isProd": true
+          },
+          {
+            "name": "EJS",
+            "exp": 1,
+            "last": "2017",
             "isProd": true
           },
           {
@@ -118,12 +131,6 @@
             "name": "HighCharts",
             "exp": 1,
             "last": "2015",
-            "isProd": true
-          },
-          {
-            "name": "Nightwatch.js",
-            "exp": 1,
-            "last": "2016",
             "isProd": true
           },
           {
@@ -186,14 +193,14 @@
       "title": "Database Management Systems",
       "items": [
         {
-          "name": "MySQL",
-          "exp": 3,
-          "last": "2015"
+          "name": "PostgreSQL",
+          "exp": 1,
+          "last": "Currently"
         },
         {
-          "name": "MS SQL",
-          "exp": 3,
-          "last": "2014"
+          "name": "MySQL",
+          "exp": 2,
+          "last": "2015"
         }
       ]
     },
@@ -222,7 +229,7 @@
         },
         {
           "name": "Git",
-          "exp": 1,
+          "exp": 2,
           "last": "Currently"
         },
         {
@@ -231,22 +238,17 @@
           "last": "Currently"
         },
         {
+          "name": "AWS",
+          "exp": 1,
+          "last": "Currently"
+        },
+        {
           "name": "SVN",
           "exp": 3,
           "last": "2016"
         },
         {
-          "name": "Ant",
-          "exp": 1,
-          "last": "2015"
-        },
-        {
           "name": "Maven",
-          "exp": 1,
-          "last": "2015"
-        },
-        {
-          "name": "Mantis",
           "exp": 1,
           "last": "2015"
         }
@@ -280,11 +282,41 @@
     }
   ],
   "projects": {
+    "cda": {
+      "company": "Epam Systems",
+      "city": "Saint Petersburg, Russia",
+      "start": "2017, October",
+      "end": "present",
+      "meta": {
+        "partner": "",
+        "unit": "Life Sciences",
+        "project": "CDA",
+        "position": "Fullstack JavaScript developer",
+        "team": "7",
+        "responsibilities": [
+          "Developing of client Web-application using React/Redux stack.",
+          "Developing of API NodeJS application based on Express.",
+          "Integrating of API NodeJS application with Amazon Web Services such as Lambda, X-Ray, S3, SQS and others.",
+          "Developing of auxiliary scripts for databricks using Python."
+        ],
+        "technologies": [
+          "JavaScript (ES6)",
+          "React",
+          "Redux",
+          "Redux-Saga",
+          "Webpack",
+          "Node",
+          "Express",
+          "Mocha/Chai",
+          "AWS-SDK"
+        ]
+      }
+    },
     "cat": {
       "company": "Epam Systems",
-      "city": "Saint Petersburg",
+      "city": "Saint Petersburg, Russia",
       "start": "2016, August",
-      "end": "present",
+      "end": "2017, October",
       "meta": {
         "partner": "",
         "unit": "Life Sciences",
@@ -295,7 +327,8 @@
           "Legacy code maintenance and bug fixing.",
           "Moving front-end build system from WRO to Gulp ( with integrating new part of application based on React which is built by means of Webpack ).",
           "Designing and implementing improvements for existing functionality.",
-          "Developing of custom plugins for CKEditor."
+          "Developing of custom plugins for CKEditor.",
+          "Introduced Webpack as a bundling system in a project including developing of custom plugin and loaders which performed content analyzing by means of esprima and estraverse packages."
         ],
         "technologies": [
           "JavaScript (ES6)",
@@ -303,13 +336,15 @@
           "jQuery-UI",
           "EJS",
           "Gulp",
-          "Webpack"
+          "Webpack",
+          "Mocha",
+          "Chai"
         ]
       }
     },
     "mobile": {
       "company": "Applied Technologies",
-      "city": "Chelyabinsk",
+      "city": "Chelyabinsk, Russia",
       "start": "2015, May",
       "end": "2016, August",
       "meta": {
@@ -337,7 +372,7 @@
     },
     "scada": {
       "company": "Applied Technologies",
-      "city": "Chelyabinsk",
+      "city": "Chelyabinsk, Russia",
       "start": "2013, August",
       "end": "2015, May",
       "meta": {
@@ -366,8 +401,9 @@
       }
     },
     "qmf": {
+      "obsolete": true,
       "company": "Applied Technologies",
-      "city": "Chelyabinsk",
+      "city": "Chelyabinsk, Russia",
       "start": "2011, February",
       "end": "2013, August",
       "meta": {

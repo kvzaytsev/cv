@@ -55,7 +55,6 @@
         <%- include('partials/footer', {}); %>
     </div>
 
-
     <div class="paper-page" size="A4">
         <%- include('partials/header', person); %>
         <div class="paper-page__content">
@@ -66,8 +65,8 @@
                     Professional experience
                 </h2>
 
+                <%- include('partials/project-table', {item: projects.cda}); %>
                 <%- include('partials/project-table', {item: projects.cat}); %>
-                <%- include('partials/project-table', {item: projects.mobile}); %>
 
             </section>
         </div>
@@ -80,7 +79,20 @@
 
             <section class="projects">
 
+                <%- include('partials/project-table', {item: projects.mobile}); %>
                 <%- include('partials/project-table', {item: projects.scada}); %>
+
+            </section>
+        </div>
+        <%- include('partials/footer', {}); %>
+    </div>
+
+    <div class="paper-page" size="A4">
+        <%- include('partials/header', person); %>
+        <div class="paper-page__content">
+
+            <section class="projects">
+
                 <%- include('partials/project-table', {item: projects.qmf}); %>
 
             </section>

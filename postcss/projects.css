@@ -1,5 +1,10 @@
 .projects {
     @mixin inner-block;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
 }
 
 .projects__header {
